@@ -12,9 +12,6 @@ function App() {
             <div style={{"position": "absolute", "left": "-5000px"}} aria-hidden="true">
               <input type="text" name="b_d5dd58a923aa2f50c0394612e_c356e93d5c" tabindex="-1" value="" />
             </div>
-            <div className="clear">
-              <input type="submit" value="Subscribe to Mail List" name="subscribe" id="mc-embedded-subscribe" className="button sub-btn"/>
-            </div>
           </div>
         </form>
       </div>
