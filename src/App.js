@@ -1,22 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./images/loco-moco-large.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="locomoco">
-
-      <div id="mc_embed_signup" className='col right'>
-        <form action="https://locomocosec.us15.list-manage.com/subscribe/post?u=d5dd58a923aa2f50c0394612e&amp;id=c356e93d5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            {/* <h2>Sign Up For Our Mailing List</h2> */}
-            <div style={{"position": "absolute", "left": "-5000px"}} aria-hidden="true">
-              <input type="text" name="b_d5dd58a923aa2f50c0394612e_c356e93d5c" tabindex="-1" value="" />
-            </div>
-          </div>
-        </form>
-      </div>
-
-
+    <div className="container mx-auto">
+      <img
+        className="logo mx-auto h-98"
+        src={logo}
+        alt="Loco Moco Security Conference Logo"
+      />
+      <h1 className="text-6xl text-center">Security Conference</h1>
+      <h2 className="text-3xl text-center p-3">July 17-18, 2024</h2>
+      <h3 className="text-1xl text-center">
+        Kalapaki Beach, Kaua'i, Hawai'i, USA
+      </h3>
     </div>
   );
 }
