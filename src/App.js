@@ -1,6 +1,8 @@
 import logo from "./images/lms-logo.svg";
 import locomoco from "./images/locomoco.svg";
-import coast from "./images/kauai-coast-960w.webp";
+import coast960w from "./images/kauai-coast-960w.webp";
+import coast480w from "./images/kauai-coast-480w.webp";
+import coast240w from "./images/kauai-coast-240w.webp";
 import "./App.css";
 
 function App() {
@@ -28,7 +30,15 @@ function App() {
         </div>
       </section>
       <section id="fold">
-        <img fetchpriority="high" src={coast} alt="Kaua'i" />
+        <img
+          fetchpriority="high"
+          srcSet={`${coast240w} 240w, ${coast480w} 480w, ${coast960w} 960w`}
+          sizes="(max-width: 240px) 200px,
+                 (max-width: 480px) 400px,
+                 800px"
+          src={coast960w}
+          alt="Kaua'i"
+        />
       </section>
       <section id="hero" className="m-8">
         <img
