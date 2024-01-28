@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.44b5144f.css",
-    "main.js": "/static/js/main.d7627509.js",
+    "main.js": "/static/js/main.5f29286f.js",
     "static/js/787.ad5a46f4.chunk.js": "/static/js/787.ad5a46f4.chunk.js",
+    "static/media/kauai-coast-480w.webp": "/static/media/kauai-coast-480w.35cfd24e853df2f1e50a.webp",
     "static/media/kauai-coast-960w.webp": "/static/media/kauai-coast-960w.b767d9bcb2aebe72e6e7.webp",
+    "static/media/kauai-coast-240w.webp": "/static/media/kauai-coast-240w.5291fc4f803587fb726c.webp",
     "static/media/lms-logo.svg": "/static/media/lms-logo.fced115125cd29a3e3f43b14781d3bca.svg",
     "static/media/locomoco.svg": "/static/media/locomoco.02f5b202818d4d49c3ea560eaf60efef.svg",
     "index.html": "/index.html",
     "main.44b5144f.css.map": "/static/css/main.44b5144f.css.map",
-    "main.d7627509.js.map": "/static/js/main.d7627509.js.map",
+    "main.5f29286f.js.map": "/static/js/main.5f29286f.js.map",
     "787.ad5a46f4.chunk.js.map": "/static/js/787.ad5a46f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44b5144f.css",
-    "static/js/main.d7627509.js"
+    "static/js/main.5f29286f.js"
   ]
 }
