@@ -1,6 +1,6 @@
 import logo from "./images/lms-logo.png";
 import locomoco from "./images/locomoco.png";
-import coast from "./images/kauai-coast.png";
+import coast from "./images/kauai-coast-960w.webp";
 import "./App.css";
 
 function App() {
