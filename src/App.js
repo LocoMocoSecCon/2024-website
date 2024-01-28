@@ -1,5 +1,5 @@
-import logo from "./images/lms-logo.png";
-import locomoco from "./images/locomoco.png";
+import logo from "./images/lms-logo.svg";
+import locomoco from "./images/locomoco.svg";
 import coast from "./images/kauai-coast-960w.webp";
 import "./App.css";
 
@@ -28,7 +28,7 @@ function App() {
         </div>
       </section>
       <section id="fold">
-        <img src={coast} alt="Kaua'i" />
+        <img fetchpriority="high" src={coast} alt="Kaua'i" />
       </section>
       <section id="hero" className="m-8">
         <img
