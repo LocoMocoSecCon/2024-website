@@ -33,9 +33,9 @@ function App() {
         <img
           fetchpriority="high"
           srcSet={`${coast240w} 240w, ${coast480w} 480w, ${coast960w} 960w`}
-          sizes="(max-width: 240px) 200px,
-                 (max-width: 480px) 400px,
-                 800px"
+          sizes="(max-width: 240px) 240px,
+                 (max-width: 480px) 480px,
+                 960px"
           src={coast960w}
           alt="Kaua'i"
         />
@@ -59,6 +59,7 @@ function App() {
           </a>
         </div>
       </section>
+      <section id="social"></section>
     </div>
   );
 }
