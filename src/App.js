@@ -19,9 +19,21 @@ function App() {
             className="h-9 flex-none"
           />
         </div>
-        <div id="menu" className="flex flex-row justify-between">
+        <div id="menu" className="flex flex-row justify-between items-center">
+          <div className="px-6">
+            <a
+              className="font-semibold"
+              href="https://sessionize.com/loco-moco-security-conference-2024"
+              rel="noreferrer noopener"
+            >
+              CFP
+            </a>
+          </div>
           <div className="flex-initial">
-            <a href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107">
+            <a
+              href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
+              rel="noreferrer noopener"
+            >
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 py-1">
                 Get tickets
               </button>
@@ -52,7 +64,10 @@ function App() {
           Kalapaki Beach, Kaua'i, Hawai'i, USA
         </h3>
         <div id="tickets-cta" className="mt-3 text-center">
-          <a href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107">
+          <a
+            href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
+            rel="noreferrer noopener"
+          >
             <button className="mx-auto text-2xl bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
               Get tickets
             </button>
