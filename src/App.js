@@ -74,11 +74,7 @@ function App() {
           </a>
         </div>
       </section>
-      <section id="copyright" className="text-center m-3">
-        <span className="text-sm opacity-20">
-          © Loco Moco Security Conference 2024
-        </span>
-      </section>
+      <section id="social"></section>
     </div>
   );
 }
