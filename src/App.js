@@ -98,7 +98,7 @@ function App() {
                   src={keynoteSpeaker.profilePicture}
                 ></img>
                 <div className="p-6 border-solid border-2 border-grey-500">
-                  <span className="text-2xl mx-auto font-bold">
+                  <span className="sm:text-md mx-auto md:text-2xl font-bold">
                     {`${keynoteSpeaker.firstName} ${keynoteSpeaker.lastName}`}
                   </span>
                   <p className="font-light">{keynoteSpeaker.tagLine}</p>
