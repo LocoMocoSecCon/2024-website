@@ -4,6 +4,7 @@ import coast960w from "./images/kauai-coast-960w.webp";
 import coast480w from "./images/kauai-coast-480w.webp";
 import coast240w from "./images/kauai-coast-240w.webp";
 import "./App.css";
+import speakers from "./speakers";
 
 function App() {
   return (
@@ -20,7 +21,16 @@ function App() {
           />
         </div>
         <div id="menu" className="flex flex-row justify-between items-center">
-          <div className="px-6">
+          <div className="px-3">
+            <a
+              className="font-semibold"
+              href="#speakers"
+              rel="noreferrer noopener"
+            >
+              Speakers
+            </a>
+          </div>
+          <div className="px-3">
             <a
               className="font-semibold"
               href="https://sessionize.com/loco-moco-security-conference-2024"
@@ -29,7 +39,7 @@ function App() {
               CFP
             </a>
           </div>
-          <div className="flex-initial">
+          <div className="px-3">
             <a
               href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
               rel="noreferrer noopener"
@@ -63,7 +73,7 @@ function App() {
         <h3 className="text-3xl text-center">
           Kalapaki Beach, Kaua'i, Hawai'i, USA
         </h3>
-        <div id="tickets-cta" className="mt-3 text-center">
+        <div id="tickets-cta" className="m-6 text-center">
           <a
             href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
             rel="noreferrer noopener"
@@ -74,7 +84,49 @@ function App() {
           </a>
         </div>
       </section>
-      <section id="social"></section>
+      <hr className="max-w-80 mx-auto"></hr>
+      <section id="speakers">
+        <h2 className="m-3 mx-auto text-center font-bold text-3xl">
+          Top Industry Speakers
+        </h2>
+        <div className="flex flex-wrap">
+          {speakers.map((keynoteSpeaker, index) => {
+            return (
+              <div className="w-1/2 p-3" key={index}>
+                <img
+                  className="mx-auto m-3"
+                  src={keynoteSpeaker.profilePicture}
+                ></img>
+                <div className="p-6 border-solid border-2 border-grey-500">
+                  <span className="text-2xl mx-auto font-bold">
+                    {`${keynoteSpeaker.firstName} ${keynoteSpeaker.lastName}`}
+                  </span>
+                  <p className="font-light">{keynoteSpeaker.tagLine}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <section id="cfp-cta">
+        <div className="m-3 mx-auto text-center">
+          <span className="text-3xl font-bold">
+            Call for Presentations is still open!
+          </span>
+          <p className="p-1">Submissions due by March 31st</p>
+        </div>
+        <div className="mt-3 mb-12 text-center">
+          <a
+            className="font-semibold"
+            href="https://sessionize.com/loco-moco-security-conference-2024"
+            rel="noreferrer noopener"
+          >
+            <button className="bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold px-6 py-3">
+              Apply Now
+            </button>
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
