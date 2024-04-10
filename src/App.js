@@ -34,6 +34,15 @@ function App() {
             <div className="px-3">
               <a
                 className="font-semibold"
+                href="https://locomocosec.com/2024-LMS-SPONSORSHIP-v1.pdf"
+                rel="noreferrer noopener"
+              >
+                Sponsor
+              </a>
+            </div>
+            <div className="px-3">
+              <a
+                className="font-semibold"
                 href="https://sessionize.com/loco-moco-security-conference-2024"
                 rel="noreferrer noopener"
               >
