@@ -34,7 +34,7 @@ function App() {
             <div className="px-3">
               <a
                 className="font-semibold"
-                href="https://locomocosec.com/2024-LMS-SPONSORSHIP-v1.pdf"
+                href="https://locomocosec.com/2024_LMS_SPONSORSHIP-v3.pdf"
                 rel="noreferrer noopener"
               >
                 Sponsor
