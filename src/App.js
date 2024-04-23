@@ -42,15 +42,6 @@ function App() {
             </div>
             <div className="px-3">
               <a
-                className="font-semibold"
-                href="https://sessionize.com/loco-moco-security-conference-2024"
-                rel="noreferrer noopener"
-              >
-                CFP
-              </a>
-            </div>
-            <div className="px-3">
-              <a
                 href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
                 rel="noreferrer noopener"
               >
