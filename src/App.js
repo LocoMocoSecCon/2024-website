@@ -88,9 +88,8 @@ function App() {
             <a
               href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
               rel="noreferrer noopener"
-              className="button-homepage"
             >
-              <button className="mx-auto text-2xl bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
+              <button className="mx-auto text-2xl bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 button-homepage">
                 Get tickets
               </button>
             </a>
@@ -99,9 +98,8 @@ function App() {
               href="https://book.passkey.com/event/50781006/owner/10862/landing"
               rel="noreferrer noopener"
               target="_blank"
-              className="button-homepage"
             >
-              <button className="mx-auto text-2xl bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4">
+              <button className="mx-auto text-2xl bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 button-homepage">
                 Book Hotel
               </button>
             </a>
