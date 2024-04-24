@@ -102,3 +102,7 @@ footer {
     justify-content: flex-end;
   }
 }
+
+.button-homepage {
+  margin: 0px 20px;
+}

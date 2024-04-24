@@ -43,7 +43,7 @@ const data = [
     "lastName": "Schaal",
     "fullName": "Adam Schaal",
     "bio": "Adam Schaal leads the Security Hub for Innovation and Efficiency (SHINE) engineering team at AWS.  The SHINE team researches, experiments, and develops mechanisms and constructs to reinforce security at scale.  Adam has an extensive background in both development and application security and is experienced with both sides of making and breaking applications. He is also very active in his local security community as a founder of Kernelcon, a mid-size information security conference, and DEF CON 402, a local DEF CON group. Adam works out of Omaha, Nebraska, one of the least likely places in the United States to encounter shark attacks or suffer altitude sickness.",
-    "tagLine": "AWS Security Leader",
+    "tagLine": "Security Engineering Leader, AWS",
     "profilePicture": "https://sessionize.com/image/ed58-400o400o1-WMrmuhSoMCTa9x944P4C4C.jpg",
     "sessions": [
       {
