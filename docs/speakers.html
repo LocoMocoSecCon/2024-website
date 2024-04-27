@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speaker Wall</title>
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://sessionize.com/api/v2/pscf7sai/view/SpeakerWall"
+    ></script>
+    <script>
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage(
+          {
+            type: "setHeight",
+            height: height,
+          },
+          "*"
+        );
+      }
+
+      setInterval(sendHeight, 500);
+
+      window.onresize = sendHeight;
+    </script>
+  </body>
+</html>
