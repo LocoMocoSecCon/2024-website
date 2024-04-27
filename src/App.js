@@ -4,7 +4,8 @@ import Fold from "./components/Fold.js";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar.js";
 import Hero from "./components/Hero.js";
-import Speakers from "./components/Speakers";
+import Sessions from "./components/Sessions.js";
+import SpeakerWall from "./components/SpeakerWall.js";
 
 function App() {
   return (
@@ -14,7 +15,12 @@ function App() {
         <Fold />
         <Hero />
         <hr className="max-w-80 mx-auto"></hr>
-        <Speakers />
+        <section id="speakers">
+          <h2 className="m-3 mx-auto text-center font-bold text-3xl">
+            Top Industry Speakers
+          </h2>
+        </section>
+        <SpeakerWall />
       </div>
       <Footer />
     </div>
