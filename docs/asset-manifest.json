@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e55e7365.css",
-    "main.js": "/static/js/main.f120e87e.js",
+    "main.css": "/static/css/main.c024126d.css",
+    "main.js": "/static/js/main.74653b85.js",
     "static/js/787.ad5a46f4.chunk.js": "/static/js/787.ad5a46f4.chunk.js",
     "static/media/kauai-coast-480w.webp": "/static/media/kauai-coast-480w.35cfd24e853df2f1e50a.webp",
     "static/media/kauai-coast-960w.webp": "/static/media/kauai-coast-960w.b767d9bcb2aebe72e6e7.webp",
+    "static/media/aws.webp": "/static/media/aws.fde5c8575f8b3be1d0f4.webp",
     "static/media/kauai-coast-240w.webp": "/static/media/kauai-coast-240w.5291fc4f803587fb726c.webp",
+    "static/media/she-hacks-purple.webp": "/static/media/she-hacks-purple.ec905cea280263b91fb8.webp",
+    "static/media/zatik.webp": "/static/media/zatik.22898b9ebc90ac018e02.webp",
+    "static/media/discernible.webp": "/static/media/discernible.3e92fda7177f609bf3f9.webp",
+    "static/media/cloudflare.webp": "/static/media/cloudflare.227c076631f7ad2480f5.webp",
     "static/media/lms-logo.svg": "/static/media/lms-logo.fced115125cd29a3e3f43b14781d3bca.svg",
     "static/media/locomoco.svg": "/static/media/locomoco.02f5b202818d4d49c3ea560eaf60efef.svg",
     "index.html": "/index.html",
-    "main.e55e7365.css.map": "/static/css/main.e55e7365.css.map",
-    "main.f120e87e.js.map": "/static/js/main.f120e87e.js.map",
+    "main.c024126d.css.map": "/static/css/main.c024126d.css.map",
+    "main.74653b85.js.map": "/static/js/main.74653b85.js.map",
     "787.ad5a46f4.chunk.js.map": "/static/js/787.ad5a46f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55e7365.css",
-    "static/js/main.f120e87e.js"
+    "static/css/main.c024126d.css",
+    "static/js/main.74653b85.js"
   ]
 }

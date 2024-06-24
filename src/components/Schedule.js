@@ -10,7 +10,7 @@ function SpeakerWall() {
       }
 
       if (event.data && event.data.type === "setHeight" && event.data.height) {
-        iframeRef.current.style.height = `${event.data.height + 100}px`;
+        iframeRef.current.style.height = `${event.data.height + 20}px`;
       }
     };
 
