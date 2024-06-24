@@ -26,10 +26,10 @@ function NavBar() {
         <div className="px-1">
           <a
             className="font-semibold"
-            href="https://locomocosec.com/2024_LMS_SPONSORSHIP-v3.pdf"
+            href="#sponsors"
             rel="noreferrer noopener"
           >
-            Sponsor
+            Sponsors
           </a>
         </div>
         <div className="px-1">
