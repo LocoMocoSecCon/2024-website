@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <section
       id="navbar"
-      className="flex flex-row items-center justify-between py-3"
+      className="flex flex-row items-center justify-between text-sm py-3"
     >
       <div id="logo" className="flex-none">
         <img
@@ -14,16 +14,16 @@ function NavBar() {
         />
       </div>
       <div id="menu" className="flex flex-row justify-between items-center">
-        <div className="px-3">
+        <div className="px-1">
           <a
             className="font-semibold"
-            href="#speakers"
+            href="#schedule"
             rel="noreferrer noopener"
           >
-            Speakers
+            Schedule
           </a>
         </div>
-        <div className="px-3">
+        <div className="px-1">
           <a
             className="font-semibold"
             href="https://locomocosec.com/2024_LMS_SPONSORSHIP-v3.pdf"
@@ -32,7 +32,7 @@ function NavBar() {
             Sponsor
           </a>
         </div>
-        <div className="px-3">
+        <div className="px-1">
           <a
             className="font-semibold"
             href="https://book.passkey.com/event/50781006/owner/10862/landing"
@@ -42,7 +42,7 @@ function NavBar() {
             Hotel
           </a>
         </div>
-        <div className="px-3">
+        <div className="px-1">
           <a
             href="https://www.eventbrite.com/e/loco-moco-security-conference-tickets-803337172107"
             rel="noreferrer noopener"
