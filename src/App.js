@@ -4,8 +4,7 @@ import Fold from "./components/Fold.js";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar.js";
 import Hero from "./components/Hero.js";
-import Sessions from "./components/Sessions.js";
-import SpeakerWall from "./components/SpeakerWall.js";
+import Schedule from "./components/Schedule.js";
 
 function App() {
   return (
@@ -15,12 +14,12 @@ function App() {
         <Fold />
         <Hero />
         <hr className="max-w-80 mx-auto"></hr>
-        <section id="speakers">
+        <section id="schedule">
           <h2 className="m-3 mx-auto text-center font-bold text-3xl">
-            Top Industry Speakers
+            Conference Schedule
           </h2>
+          <Schedule />
         </section>
-        <SpeakerWall />
       </div>
       <Footer />
     </div>
