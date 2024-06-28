@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of files to convert
-files=("aws.png" "cloudflare.webp" "discernible.png" "she-hacks-purple.jpg" "zatik.png")
+files=("zatik.png")
 
 # Loop through each file
 for file in "${files[@]}"; do
