@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of files to convert
-files=("zatik.png")
+files=("discernible.png")
 
 # Loop through each file
 for file in "${files[@]}"; do
